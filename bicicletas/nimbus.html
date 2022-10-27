@@ -46,14 +46,14 @@
     <main class="titulo-bg">
       <div>
         <div class="titulo container">
-          <span class="font-2-xl cor-5">R$ 4999</span>
-          <h1 class="font-1-xxl cor-0">
+          <span class="font-2-xl cor-5 fadeInDown" data-anime="200">R$ 4999</span>
+          <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="400">
             Nimbus Stark<span class="cor-p1">.</span>
           </h1>
         </div>
       </div>
 
-      <div class="bicicleta container">
+      <div class="bicicleta container fadeInDown" data-anime="600">
         <div class="bicicleta-imagens">
           <img src="../img/bicicleta/nimbus1.jpg" alt="Bicicleta preta" />
           <img src="../img/bicicleta/nimbus2.jpg" alt="Bicicleta branca" />
@@ -66,7 +66,11 @@
             velocidade.
           </p>
           <div class="bicicleta-comprar">
-            <a class="botao" href="../orcamento.html">Comprar Agora</a>
+            <a
+              class="botao"
+              href="../orcamento.html?tipo=bikcraft&produto=nimbus"
+              >Comprar Agora</a
+            >
             <span class="font-1-xs cor-6"
               ><img src="../img/icones/entrega.svg" alt="Icon Entrega" />
               entrega em 5 dias</span
@@ -203,7 +207,7 @@
         </p>
       </div>
     </footer>
-
+    <script src="../js/plugins/simple-anime.js"></script>
     <script src="../js/script.js"></script>
   </body>
 </html>
